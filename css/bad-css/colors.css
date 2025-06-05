@@ -1,0 +1,12 @@
+:root {
+  --neutral-light: hsl(0, 0%, 100%);
+  --neutral-light-variant: hsl(0, 0%, 81%);
+  --neutral-medium: hsl(184, 10%, 73%);
+  --neutral-medium-variant: hsl(180, 8%, 91%);
+  --neutral-dark: hsl(168, 48%, 31%);
+  --warm-overlay: hsl(3, 41%, 79%);
+  --emphasis: hsl(168, 76%, 42%);
+  --emphasis-trans: hsla(168, 76%, 42%, 0.5);
+  --background-light: hsl(0, 0%, 95%);
+  --black: hsl(0, 0%, 2%);
+}

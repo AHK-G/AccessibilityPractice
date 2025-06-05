@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bad Example Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bad-css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/bad-css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="main-header">
+      <nav class="wraper">
+        <a class="logo" href="#hero">Logo</a>
+        <div class="nav-container">
+          <ul class="list">
+            <li><a href="#hero" tabindex="0">Start</a></li>
+            <li><a href="#about-me" tabindex="0">About me</a></li>
+            <li><a href="#portfolio" tabindex="0">Work</a></li>
+            <li><a href="#contact" tabindex="0">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="hero">
+      <div class="wraper">
+        <h1 tabindex="0">May I introduce myself?</h1>
+        <h2 tabindex="0">Frontend Design | UI/UX Design</h2>
+        <a class="btn-primary" href="#about-me">Go ahead</a>
+      </div>
+    </div>
+
+    <div id="about-me">
+      <div class="wraper">
+        <div class="introduction">
+          <h1 class="name" tabindex="0">Raphael Lechner</h1>
+          <p tabindex="0">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr...
+          </p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-unit">
+            <div class="skill-unit-icon">
+              <img src="assets/img/sketching-icon.png" alt="" />
+            </div>
+            <span class="subtitle" tabindex="0">Sketching is fun</span>
+            <p tabindex="0">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr...
+            </p>
+          </div>
+          <div class="skill-unit">
+            <div class="skill-unit-icon">
+              <img src="assets/img/design-icon.png" alt="" />
+            </div>
+            <span class="subtitle" tabindex="0">Design afterwards</span>
+            <p tabindex="0">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr...
+            </p>
+          </div>
+          <div class="skill-unit">
+            <div class="skill-unit-icon">
+              <img src="assets/img/finalize-icon.png" alt="" />
+            </div>
+            <span class="subtitle" tabindex="0">Finalize</span>
+            <p tabindex="0">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="wraper">
+        <div class="gallery-container">
+          <div class="gallery">
+            <div class="gallery-column">
+              <div class="gallery-unit" tabindex="0">
+                <img src="assets/img/gallery-img-1.jpg" alt="" />
+                <div class="photo-overlay">
+                  <div class="photo-caption">
+                    <h2 tabindex="0">Lorem ipsum dolor sit</h2>
+                    <p tabindex="0">amet consetetur sadipscing elitr</p>
+                  </div>
+                  <a
+                    data-fslightbox="lightbox-1"
+                    href="assets/img/gallery-img-1.jpg"
+                    class="btn-zoom"
+                  >
+                    <img src="assets/img/magnifying-glass.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="gallery-unit" tabindex="0">
+                <img src="assets/img/gallery-img-2.jpg" alt="" />
+                <div class="photo-overlay">
+                  <div class="photo-caption">
+                    <h2 tabindex="0">Lorem ipsum dolor sit</h2>
+                    <p tabindex="0">amet consetetur sadipscing elitr</p>
+                  </div>
+                  <a
+                    data-fslightbox="lightbox-1"
+                    href="assets/img/gallery-img-2.jpg"
+                    class="btn-zoom"
+                  >
+                    <img src="assets/img/magnifying-glass.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-column">
+              <div class="gallery-unit" tabindex="0">
+                <img src="assets/img/gallery-img-3.jpg" alt="" />
+                <div class="photo-overlay">
+                  <div class="photo-caption">
+                    <h2 tabindex="0">Lorem ipsum dolor sit</h2>
+                    <p tabindex="0">amet consetetur sadipscing elitr</p>
+                  </div>
+                  <a
+                    data-fslightbox="lightbox-1"
+                    href="assets/img/gallery-img-3.jpg"
+                    class="btn-zoom"
+                  >
+                    <img src="assets/img/magnifying-glass.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="gallery-unit" tabindex="0">
+                <img src="assets/img/gallery-img-4.jpg" alt="" />
+                <div class="photo-overlay">
+                  <div class="photo-caption">
+                    <h2 tabindex="0">Lorem ipsum dolor sit</h2>
+                    <p tabindex="0">amet consetetur sadipscing elitr</p>
+                  </div>
+                  <a
+                    data-fslightbox="lightbox-1"
+                    href="assets/img/gallery-img-4.jpg"
+                    class="btn-zoom"
+                  >
+                    <img src="assets/img/magnifying-glass.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="wraper">
+        <h2 tabindex="0">Get in touch!</h2>
+        <div class="contact-form-container">
+          <form id="form" class="contact-form">
+            <div class="input-container">
+              <div class="input-unit">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="input-contact-info"
+                  id="name"
+                  autocomplete="name"
+                />
+              </div>
+              <div class="input-unit">
+                <input
+                  placeholder="Email"
+                  type="email"
+                  class="input-contact-info"
+                  id="email"
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+            <div class="input-unit message-unit">
+              <textarea
+                placeholder="How can I help you?"
+                rows="7"
+                class="form-text-area"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn" tabindex="0">Ok</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="wraper">
+        <div class="social-icons-container">
+          <a class="social-icon" href="">
+            <img src="assets/svg/twitter.svg" alt="" />
+          </a>
+          <a class="social-icon" href="">
+            <img src="assets/svg/dribbble.svg" alt="" />
+          </a>
+          <a class="social-icon" href="">
+            <img src="assets/svg/facebook.svg" alt="" />
+          </a>
+        </div>
+        <div class="legal-info">
+          <p tabindex="0">© Raphael Lechner</p>
+          <a href="">Imprint</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
